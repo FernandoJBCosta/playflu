@@ -630,7 +630,7 @@ ALTER TABLE `media`
 --
 -- AUTO_INCREMENT для таблицы `media_test`
 --
-ALTER TABLE `media_test`
+ALTER TABLE `media_files`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
