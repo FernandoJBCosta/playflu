@@ -15,11 +15,11 @@ Simplest playout system for Flussonic Media Server based on PHP-Mysql-NGINX
 
 4. Import from mysql_config structure and some test data to your database
 
-5. Copy folder [playflu-bot] into etc/ and go to ssh and execute several commands:
+5. Copy folder [playflu-bot] into opt/ and go to ssh and execute several commands:
 ###### #cd /opt/playflu-bot
 ###### #screen
-###### #/usr/bin/php -f /opt/handbrake-bot/ffmpeg-bot.php
-###### #/usr/bin/php -f /opt/handbrake-bot/playlist-bot.php
+###### #/usr/bin/php -f /opt/playflu-bot/ffmpeg-bot.php
+###### #/usr/bin/php -f /opt/playflu-bot/playlist-bot.php
 
 Close terminal and open try again:
 
